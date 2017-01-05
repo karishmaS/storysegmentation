@@ -1,0 +1,29 @@
+constants and data_creator (internal)
+
+Training and Validation
+1. extract_stream.py t -> extracts
+
+2. prepare_wordembedding.py -> data_samples (unused- only for logging), embedding_matrix, word_index, input_rep_data, input_rep_label
+
+Found 454 unique tokens.
+Found 400000 word vectors.
+('Shape of data tensor:', (117, 10))
+('Shape of label tensor:', (117,))
+Completed
+
+3. train_lstm_classifier -> lstmmodel
+
+Evaluation
+1. extract_stream.py -> extracts_eval
+2. lstm_classifier.py
+
+
+##Currently 90(80:20):10 for train, val, test set
+extract_stream.py
+prepare_wordembedding.py
+prepare_data.py
+predict.py
+
+
+
+
